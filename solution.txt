@@ -1,0 +1,103 @@
+  728  cat people
+  729  ls - l
+  730  ls - la
+  731  ls -la
+  732  grep CLUE crimescene
+  733  grep Annabel people
+  734  cd interviews/
+  735  ls
+  736  cd .
+  737  cd ..
+  738  ls
+  739  cat vehicles
+  740  grep Annabel vehicles
+  741  ls -la
+  742  grep CLUE crimescene
+  743  cd ..
+  744  touch notes.txt
+  745  sublime notes.txt
+  746  cd mystery/
+  747  ls
+  748  cd memberships/
+  749  ls
+  750  cat AAA
+  751  ls -la
+  752  cat delta.txt
+  753  ls-la
+  754  ls -la
+  755  cat Delta_SkyMiles
+  756  ls -la
+  757  cat Museum_of_Bash_History
+  758  cd .
+  759  cd ..
+  760  ls
+  761  cd ..
+  762  ls -la
+  763  open cheatsheet.pdf
+  764  cd mystery/
+  765  ls
+  766  head people
+  767  grep Annabel people
+  768  cd streets/
+  769  ls
+  770  cat Hart_Place
+  771  head 40 Hart_Place
+  772  head -n 40 Hart_Place
+  773  cd ..
+  774  ls
+  775  cd interviews/
+  776  ls
+  777  head interview-47246024
+  778  cd ..
+  779  cd streets/
+  780  ls -la
+  781  head -n 179 Buckingham_Place | tail
+  782  cd ..
+  783  cd interviews/
+  784  head interview-699607
+  785  cd .
+  786  ls
+  787  cd ..
+  788  ls
+  789  grep -i "L337.9" vehicles
+  790  head vehicles
+  791  grep -i "L337..9" vehicles
+  792  grep -i "L337..9" -A 6 vehicles
+  793  grep -i "L337..9" -A 5 vehicles
+  794  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2
+  795  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep "Height: 6" -A 2 -B 4
+  796  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep "Height: 6" -A 1 -B 4
+  797  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep "Height: 6"  -B 4
+  798  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep "Height: 6" -A 1 -B 3
+  799  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep "Height: 6" -A 1 -B 3ls
+  800  ls
+  801  grep -i "L337..9" -A 5 vehicles | grep "Make: Honda" -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep "Height: 6" -A 1 -B 3
+  802  ls
+  803  head people
+  804  cd memberships/
+  805  ls -la
+  806  grep "Joe Germuska" AAA
+  807  grep "Joe Germuska" Delta_SkyMiles
+  808  grep "Jeremy Bowers" AAA
+  809  grep "Jeremy Bowers" Delta_SkyMiles
+  810  grep "Jeremy Bowers" Terminal_City_Library
+  811  grep "Jeremy Bowers" Museum_of_Bash_History
+  812  cd ..
+  813  ls
+  814  grep "Jeremy Bowers" people
+  815  cd streets/
+  816  head -n 284 Dunstable_Road | tail
+  817  cd ..
+  818  cd interviews/
+  819  cat interview-9620713
+  820  cd ..
+  821  cd ..
+  822  ls
+  823  sublime solution.txt
+  824  history
+  825  history -help
+  826  history 100
+  827  history 100 > solution.txt
+
+The killer is:
+Jeremy Bowers
